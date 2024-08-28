@@ -1,7 +1,7 @@
 # Credit-Card-Clustering
 
-# Introduction
-This project, will be performing an unsupervised clustering of data on the Credit Card customer's. Customer segmentation is the practice of separating customers into groups that reflect similarities among customers in each cluster. and divide customers into segments to optimize the significance of each customer to the business. To modify products according to distinct needs and behaviours of the customers. It also helps the business to concerns of different types of customers.
+This project, will be performing an unsupervised clustering of data on the Credit Card customer's.
+Customer segmentation is the practice of separating customers into groups that reflect similarities among customers in each cluster. and divide customers into segments to optimize the significance of each customer to the business. To modify products according to distinct needs and behaviours of the customers. It also helps the business to specify manage risk on customers.
 
 # Data Information
   - CUSTID : Identification of Credit Card holder (Categorical)
@@ -23,7 +23,8 @@ This project, will be performing an unsupervised clustering of data on the Credi
   - PRCFULLPAYMENT : Percent of full payment paid by user
   - TENURE : Tenure of credit card service for user
 
-# Data Processing
+# Data Processing Approach
+Several approach on processing the data
   - Data Describe
   - Data Cleaning
   - Exploratory Data Analysis
@@ -47,5 +48,33 @@ This project, will be performing an unsupervised clustering of data on the Credi
   - Cluster 2 = High Income & High Spending
   - Cluster 3 = High Income & Low Spending
 
-# Conclusion
-After we what kind of our customer, we can modify products according to distinct needs and behaviours of the customers. It also helps the business to concerns of different types of customers.
+# Data Understanding
+After we know what kind of our customer, we can modify products according to distinct needs and behaviours of the customers. It also helps the business to concerns of different types of customers.
+
+Based on this cluster :
+Cluster 0 = customer with average income who have to low spending on their credit card
+- This customer may be financialy cautios to spend
+- They might used it for their routine essential or small purchase
+- Stable customer with predictable pattern, Low Risk of default
+- Low profitable in term interest and fee
+
+Cluster 1 = customer with low level income but with high spending on their card
+- By their high spending with low income this customer could lead to higher debt and great chance to default on the High Risk status
+- Used it on day to day expense
+- Targeted financial product such credit debt insurance
+- Highly alert on monitoring this cluster
+
+Cluster 2 = customer with high income and had high spending on their card
+- Profitable for company due to high transcations volume and potential interest
+- Used it for personal or luxury expense
+- Targeted for premium card offering with higher limit or exclusive rewards
+- On categories Low Risk less likely on default due to high income
+
+  Cluster 3 = with high income but had low spending
+  - Potentialy prefer use other form of payment rather relying on credit cards
+  - More conservative on debt to maintain low credit
+  - Could be opportunities through specific targeted marketing such promoting reward program or incentives for higher usage
+  - Monitoring their spending habits to help in design product that encourage more used without breach about their preference for financial security (Insurance)
+
+ By Undestanding these cluster, you can make a strategies marketing, financial products and customer support to meet the needs for each group.
+ Targeted offer or personalized communication to enhance satisfaction and retention and monitoring to allow adjust credit policies or product offerings
